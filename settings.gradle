@@ -1,2 +1,11 @@
-rootProject.name = 'svc-queue-daemon'
+rootProject.name = 'svc-pubsub-daemon'
+
+include 'core'
+
+include 'service'
+
+include 'pubsub'
+
+include 'daemon'
+
 

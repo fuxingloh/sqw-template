@@ -1,0 +1,16 @@
+plugins {
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management'
+    id 'java'
+}
+
+dependencies {
+    compile project(':core')
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    testCompile 'com.jayway.jsonpath:json-path'
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+}
