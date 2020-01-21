@@ -1,11 +1,11 @@
-package dev.fuxing.svc;
+package dev.fuxing.sqw.model;
 
-public class SvcObject {
+public class HelloObject {
 
 	private final long id;
 	private final String content;
 
-	public SvcObject(long id, String content) {
+	public HelloObject(long id, String content) {
 		this.id = id;
 		this.content = content;
 	}

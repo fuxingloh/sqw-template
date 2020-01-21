@@ -1,11 +1,11 @@
-rootProject.name = 'svc-pubsub-daemon'
+// Service Queue Worker Template
+rootProject.name = 'sqw-template'
 
+// Implemented by all modules
 include 'core'
 
 include 'service'
-
-include 'pubsub'
-
-include 'daemon'
+include 'queue'
+include 'worker'
 
 

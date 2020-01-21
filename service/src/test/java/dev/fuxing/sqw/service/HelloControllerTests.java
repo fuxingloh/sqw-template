@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package dev.fuxing.svc;
+package dev.fuxing.sqw.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,14 +28,14 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest
 @AutoConfigureMockMvc
-public class SvcControllerTests {
+public class HelloControllerTests {
 
     @Autowired
     private MockMvc mockMvc;
 
     @Test
     public void noParamGreetingShouldReturnDefaultMessage() throws Exception {
-        this.mockMvc.perform(get("/named"))
+        this.mockMvc.perform(get("/hello"))
                 .andDo(print())
                 .andExpect(status().isOk())
                 .andExpect(
@@ -46,7 +46,7 @@ public class SvcControllerTests {
 
     @Test
     public void paramGreetingShouldReturnTailoredMessage() throws Exception {
-        this.mockMvc.perform(get("/named")
+        this.mockMvc.perform(get("/hello")
                 .param("name", "Spring Community"))
                 .andDo(print())
                 .andExpect(status().isOk())

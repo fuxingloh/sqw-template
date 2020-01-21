@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="sqd-template.core.main" target="11" />
+      <module name="sqd-template.core.test" target="11" />
+      <module name="sqd-template.daemon.main" target="11" />
+      <module name="sqd-template.daemon.test" target="11" />
+      <module name="sqd-template.main" target="11" />
+      <module name="sqd-template.pubsub.main" target="11" />
+      <module name="sqd-template.pubsub.test" target="11" />
+      <module name="sqd-template.queue.main" target="11" />
+      <module name="sqd-template.queue.test" target="11" />
+      <module name="sqd-template.service.main" target="11" />
+      <module name="sqd-template.service.test" target="11" />
+      <module name="sqd-template.test" target="11" />
+      <module name="svc-mq-daemon.core.main" target="11" />
+      <module name="svc-mq-daemon.core.test" target="11" />
+      <module name="svc-mq-daemon.daemon.main" target="11" />
+      <module name="svc-mq-daemon.daemon.test" target="11" />
+      <module name="svc-mq-daemon.main" target="11" />
+      <module name="svc-mq-daemon.pubsub.main" target="11" />
+      <module name="svc-mq-daemon.pubsub.test" target="11" />
+      <module name="svc-mq-daemon.service.main" target="11" />
+      <module name="svc-mq-daemon.service.test" target="11" />
+      <module name="svc-mq-daemon.test" target="11" />
+      <module name="svc-pubsub-daemon.core.main" target="11" />
+      <module name="svc-pubsub-daemon.core.test" target="11" />
+      <module name="svc-pubsub-daemon.daemon.main" target="11" />
+      <module name="svc-pubsub-daemon.daemon.test" target="11" />
+      <module name="svc-pubsub-daemon.main" target="11" />
+      <module name="svc-pubsub-daemon.pubsub.main" target="11" />
+      <module name="svc-pubsub-daemon.pubsub.test" target="11" />
+      <module name="svc-pubsub-daemon.service.main" target="11" />
+      <module name="svc-pubsub-daemon.service.test" target="11" />
+      <module name="svc-pubsub-daemon.test" target="11" />
+      <module name="svc-queue-daemon.daemon.main" target="11" />
+      <module name="svc-queue-daemon.daemon.test" target="11" />
+      <module name="svc-queue-daemon.main" target="11" />
+      <module name="svc-queue-daemon.queue.main" target="11" />
+      <module name="svc-queue-daemon.queue.test" target="11" />
+      <module name="svc-queue-daemon.service.main" target="11" />
+      <module name="svc-queue-daemon.service.test" target="11" />
+      <module name="svc-queue-daemon.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

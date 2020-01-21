@@ -1,11 +1,8 @@
-plugins {
-    id 'org.springframework.boot'
-    id 'io.spring.dependency-management'
-    id 'java'
-}
+apply plugin: 'java-library'
 
 dependencies {
-    compile project(':core')
+    implementation project(':core')
+    implementation project(':queue')
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
@@ -14,3 +11,4 @@ dependencies {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
 }
+

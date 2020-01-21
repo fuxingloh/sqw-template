@@ -46,3 +46,12 @@ allprojects {
         useJUnitPlatform()
     }
 }
+
+dependencies {
+    implementation project(':core')
+    implementation project(':service')
+    implementation project(':queue')
+    implementation project(':worker')
+
+    implementation 'org.springframework.boot:spring-boot-starter'
+}

@@ -1,0 +1,14 @@
+apply plugin: 'java-library'
+
+dependencies {
+    api 'dev.fuxing:error-url:0.2.0'
+    api 'org.springframework.boot:spring-boot-starter-json'
+}
+
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}
